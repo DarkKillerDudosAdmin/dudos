@@ -1,0 +1,106 @@
+#g-recaptcha-response {
+    display: block !important;
+    position: absolute;
+    margin: -78px 0 0 0 !important;
+    width: 302px !important;
+    height: 76px !important;
+    z-index: -999999;
+    opacity: 0;
+}
+body {
+    background-color: rgb(186, 231, 231);
+    margin: 0;
+}
+h1 {
+    margin: 0;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #5200a5;
+}
+.form-style-5 {
+	max-width: 300px;
+	padding: 10px 20px;
+    padding-bottom: 5px;
+    border-bottom: #5200a5;
+	background: #3ca8cc;
+	margin: 10px auto;
+	padding: 20px;
+	background: #3ca8cc;
+	border-radius: 10px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	box-shadow: 0 0 5px 10px rgb(44, 176, 196);
+}
+
+.form-style-5 fieldset {
+	border: none;
+}
+
+.form-style-5 legend {
+	font-size: 1.4em;
+	margin-bottom: 10px;
+}
+
+.form-style-5 label {
+	display: block;
+	margin-bottom: 8px;
+}
+
+.form-style-5 input[type="text"],
+.form-style-5 input[type="email"],
+.form-style-5 textarea,
+.form-style-5 select {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background: hsla(0, 15%, 94%, 0.1);
+	border: none;
+	border-radius: 20px/20px;
+	font-size: 12px;
+	margin: 0;
+	outline: 0;
+	padding: 8px;
+	width: 100%;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	background-color: #e8eeef;
+	color: hsl(240, 4%, 5%);
+	-webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+	margin-bottom: 20px;
+}
+.form-style-5 label {
+	display: block;
+	margin-bottom: 8px;
+}
+
+.form-style-5 input[type="text"]:focus,
+.form-style-5 input[type="email"]:focus,
+.form-style-5 textarea:focus,
+.form-style-5 select:focus {
+	background: rgb(234, 234, 236);
+}
+
+.form-style-5 select {
+	-webkit-appearance: menulist-button;
+	height: 35px;
+}
+.form-style-5 input[type="submit"] {
+	padding: 15px 25px;
+	font-size: 24px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	color: #fff;
+	background-color: #b62d2d;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px rgb(56, 54, 54);
+  }
+  
+  .form-style-5 input[type="submit"]:hover {background-color: #b62d2d}
+  
+  .form-style-5 input[type="submit"]:active {
+	background-color: #b62d2d;
+	box-shadow: 0 5px rgb(56, 54, 54);
+	transform: translateY(4px);
+  }
+
